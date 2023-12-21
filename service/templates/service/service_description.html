@@ -1,0 +1,21 @@
+{% extends 'service/base.html' %}
+{% load my_tags %}
+{% block content %}
+    <div class="card mb-4 box-shadow">
+        <img class="card-img-top"
+             src="{{ object.img|mymedia }}"
+             alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">{{ object.name }}<br/><br/>
+
+                {{ object.desc }}<br/><br/>
+                {{ object.contraindications }}
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
