@@ -17,15 +17,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other
-                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
-                        Then, link them off to some social networking sites or contact information.</p>
+                    <h4 class="text-white">Обо мне</h4>
+                    <p class="text-muted">Ваш Косметолог Марьяна✨ Предлагаю оставаться молодой и красивой❣
+                        Привет! Я Марьяна Мамяшева, косметолог широкого профиля с медицинским образованием.
+
+                        Прошла обучение в Академии стандарт. Через мои ручки прошло более 50 моделей. Регулярно посещаю
+                        вебинары и семинары.
+
+                        Все процедуры проводятся индивидуально с учетом Вашего возраста и типа кожи.
+
+                        Буду рада с тобой знакомству.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Меню</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Инстаграм</a></li>
+                        <li>
+                            <a href="https://www.instagram.com/cosmetolog_m.ren?igsh=MWx5cHRhcmsxbmRyMg%3D%3D&utm_source=qr"
+                               class="text-white">Инстаграм</a></li>
+                        <li>
+                            <a href="https://vk.com/maryana_ren"
+                               class="text-white">Вконтакте</a></li>
                         {% if user.is_authenticated %}
                             </li><a href="{% url 'users:logout' %}" class="text-white">Выход</a></li>
                         {% else %}
