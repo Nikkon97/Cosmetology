@@ -1,16 +1,12 @@
-from django.shortcuts import render
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 
 from service.models import Service
 
 
-def index(request):
-    context = {
-        'object_list': Service.objects.all(),
-        'title': 'Мои услуги'
-    }
-    return render(request, 'service/index.html', context)
-
-
 class ServiceListView(ListView):
     model = Service
+
+
+class ServiceDescriptionView(DetailView):
+    model = Service
+    template_name = 'service/service_description.html'
