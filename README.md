@@ -7,7 +7,8 @@
 
 ## Технологии
 - [PostgreSQL](https://www.postgresql.org/)
-- [Django](https://www.djangoproject.com/))
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Использование
 1. Настроить виртуальное окружение и установить все необходимые зависимости с помощью команд: 
