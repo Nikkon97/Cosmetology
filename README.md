@@ -56,11 +56,7 @@ python manage.py runserver
 python3 manage.py runserver
 ```
 
-### Установка зависимостей
-Для установки зависимостей, выполните команду:
-```sh
-pip install -r requirements.txt
-```
+
 
 
 
